@@ -12,6 +12,11 @@ button:active{
     transform: scale(1.1);
 }
 
+body {
+    background-color: #444;
+    padding: 0;
+}
+
 .todo{
     background-color: #333;
     width: 500px;
@@ -98,4 +103,17 @@ button:active{
 }
 #igual{
     background-color: rgb(243, 100, 34);
+}
+
+@media screen and (max-width:600px) {
+    body {
+        transform: scale(0.6);
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .visop{
+        width: 90%;
+    }
+
 }
